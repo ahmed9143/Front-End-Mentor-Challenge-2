@@ -1,0 +1,93 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Tahoma, Verdana, sans-serif, Arial, sans-serif; /* Added Arial as a generic font family */
+}
+
+.card {
+margin-top: -30vh; /* Changed from -20% to 10vh */
+margin-left: 30%; /* Changed from 40% to 30% */
+width: 350px;
+height: 500px;
+border-radius: 15px;
+background-color: white;
+display: flex;
+justify-content: center;
+flex-direction: column;
+border: 1px solid #ddd; /* Changed from border-radius */
+}
+
+.card h2 {
+margin-left: 21%;
+margin-top: 20px;
+margin-bottom: 15px;
+opacity: 0.8;
+}
+
+.p1 {
+opacity: 0.7;
+margin-left: 40px;
+width: 260px;
+color: #222;
+background-color: white;
+font-size: 16px;
+}
+
+.music-div {
+display: flex;
+margin: 30px;
+width: 260px;
+
+}
+
+.salary {
+display: flex;
+flex-direction: column;
+margin-left: 19px;
+}
+
+.music-div img {
+    margin-left: 10px;
+}
+
+.music-div a {
+margin-left: 60px; /* Centered the anchor element */
+text-decoration: none;
+}
+
+.salary .bold {
+font-size: 16px;
+font-weight: 600;
+}
+
+.salary .light {
+opacity: 0.7;
+}
+
+button {
+width: 260px;
+height: 40px;
+background-color: rgb(15, 15, 134);
+font-size: 16px;
+border: none;
+outline: none;
+border-radius: 6px;
+margin: 0 auto; /* Centered the button horizontally */
+color: white;
+padding: 10px 0; /* Adjusted padding */
+cursor: pointer;
+}
+
+.card h4 {
+font-family: 'Poppins', sans-serif;
+font-weight: bold;
+margin-top: 15px;
+line-height: 1.2; /* Adjusted line height */
+text-align: center;
+opacity: 0.7;
+margin-right: 16px;
+}
